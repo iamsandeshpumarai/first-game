@@ -1,0 +1,61 @@
+*{
+ text-transform: capitalize;
+margin: 0;
+padding: 0;
+}
+header {
+height: 14px;
+  
+}
+.header{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 11vh;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 7vh;
+    text-align: center;
+}
+main{
+    min-height: calc(100vh - 7vh - 11vh);
+}
+.btn{
+    height: 200px;
+    width: 200px; 
+    border: 2px solid black;
+    border-radius: 20%;
+    text-align: center;
+    margin: 2rem;
+}
+.container-btn{
+    display: flex;
+justify-content: center;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.blue{
+    background-color: #819ff9;
+}
+.green{
+    background-color: #63aac0;
+}
+
+.flash{
+    background-color: white;
+}
+.flash-red{
+    background-color: red;
+}
+.user-flash{
+    background-color: green;
+}
+.btn{
+    cursor: pointer;
+}
